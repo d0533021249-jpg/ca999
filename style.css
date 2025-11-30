@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #eee;
+    padding: 20px;
+}
+
+header {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.hero .box,
+.features .box,
+.content .box,
+footer {
+    background: #ddd;
+    padding: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.features {
+    display: flex;
+    gap: 20px;
+}
+
+.content {
+    display: flex;
+    gap: 20px;
+}
+
+.large {
+    flex: 3;
+}
+
+.small {
+    flex: 1;
+}
